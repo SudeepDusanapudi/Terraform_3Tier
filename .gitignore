@@ -1,0 +1,14 @@
+# Ignore Terraform directory and state files
+.terraform/
+*.tfstate
+*.tfstate.backup
+
+# Ignore provider binaries
+*.exe
+*.zip
+*.tar.gz
+
+# Ignore IDE files
+.vscode/
+.idea/
+
